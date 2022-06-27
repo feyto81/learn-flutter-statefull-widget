@@ -10,6 +10,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int number = 0;
+
   void tekanTombol() {}
 
   @override
@@ -23,7 +25,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text("12"),
+              Text(number.toString()),
               RaisedButton(
                 child: Text("Tambah Bilangan"),
                 onPressed: tekanTombol,
