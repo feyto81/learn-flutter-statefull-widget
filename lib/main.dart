@@ -17,6 +17,13 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text("Stateful widget demo"),
         ),
+        body: Center(
+          child: Column(
+            children: <Widget>[
+              Text("12"),
+            ],
+          ),
+        ),
       ),
     );
   }
