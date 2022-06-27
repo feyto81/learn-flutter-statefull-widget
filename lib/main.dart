@@ -12,7 +12,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   int number = 0;
 
-  void tekanTombol() {}
+  void tekanTombol() {
+    number = number + 1;
+  }
 
   @override
   Widget build(BuildContext context) {
