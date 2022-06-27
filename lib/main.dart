@@ -19,7 +19,12 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Column(
-            children: <Widget>[Text("12"), RaisedButton()],
+            children: <Widget>[
+              Text("12"),
+              RaisedButton(
+                child: Text("Tambah Bilangan"),
+              )
+            ],
           ),
         ),
       ),
