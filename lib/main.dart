@@ -19,9 +19,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Column(
-            children: <Widget>[
-              Text("12"),
-            ],
+            children: <Widget>[Text("12"), RaisedButton()],
           ),
         ),
       ),
