@@ -23,6 +23,7 @@ class _MyAppState extends State<MyApp> {
               Text("12"),
               RaisedButton(
                 child: Text("Tambah Bilangan"),
+                onPressed: tekanTombol,
               )
             ],
           ),
