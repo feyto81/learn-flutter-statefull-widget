@@ -13,7 +13,9 @@ class _MyAppState extends State<MyApp> {
   int number = 0;
 
   void tekanTombol() {
-    number = number + 1;
+    setState(() {
+      number = number + 1;
+    });
   }
 
   @override
